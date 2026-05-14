@@ -1,0 +1,337 @@
+/* =========================================================
+   GLOBAL THEME
+========================================================= */
+
+.stApp {
+  background-color: #0A0D14;
+  color: #fff;
+}
+
+[data-testid="stSidebar"] {
+  background-color: #111520;
+}
+
+/* =========================================================
+   TYPOGRAPHY (SCOPED – safer)
+========================================================= */
+
+.block-container,
+.block-container * {
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   LAYOUT
+========================================================= */
+
+.block-container {
+  padding: 50px 3rem !important;
+  max-width: 750px !important;
+}
+
+/* =========================================================
+   BUTTONS
+========================================================= */
+
+button,
+.stButton button,
+.stDownloadButton button,
+.MuiBox-root button {
+  background-color: #181D2A !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   INPUTS & TEXT ELEMENTS
+========================================================= */
+
+input,
+textarea,
+p,
+li,
+code,
+[data-testid="stSelectbox"] > div > div,
+[data-baseweb="select"] > div,
+[data-baseweb="popover"] ul,
+[data-baseweb="menu"] {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   METRICS
+========================================================= */
+
+[data-testid="stMetric"] {
+  background-color: #181D2A;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 1.2rem;
+  border-radius: 0;
+}
+
+[data-testid="stMetric"] div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+[data-testid="stMetricValue"] {
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
+
+[data-testid="stMetricLabel"] {
+  font-size: 15px !important;
+  opacity: 0.6;
+}
+
+[data-testid="stMetric"] div label p {
+  font-size: 16px !important;
+}
+
+/* =========================================================
+   CONTAINERS / CARDS
+========================================================= */
+
+.stContainer,
+.stExpander,
+.stTabs,
+.stColumns,
+.stPopover,
+.stAlertContainer,
+.stStatusContainer,
+.stMetric,
+.stTable,
+.stDataFrame,
+.stForm,
+.stSelectbox,
+[data-baseweb="select"] > div,
+[data-testid="stForm"],
+[data-testid="stMetric"],
+[data-testid="stNumberInputContainer"],
+[data-testid="stDataFrameColumnMenu"],
+[data-testid="stHeadingWithActionElements"],
+[data-testid="stCaptionContainer"] p,
+[data-testid="stAlertContentInfo"] p,
+[data-testid="stSidebarNavLink"],
+[data-testid="stMarkdownContainer"] h3,
+[data-baseweb="popover"],
+[data-baseweb="menu"],
+div[role="menu"],
+div[role="menuitem"] {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   DATAFRAME FIX
+========================================================= */
+
+.stDataFrame,
+.stDataFrame div,
+.stDataFrameGlideDataEditor {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   INTERACTIVE ELEMENTS
+========================================================= */
+
+.stTextInput,
+.stTextArea,
+.stNumberInput,
+.stSlider,
+.stMultiselect,
+.stRadio,
+.stCheckbox,
+.stToggle,
+.stFileUploader,
+.stColorPicker,
+.stDateInput,
+.stTimeInput,
+.stCameraInput,
+[data-testid="stTextInput"] > div,
+[data-testid="stButton"] button,
+[data-testid="stBaseButton-secondaryFormSubmit"],
+[data-testid="stStatusWidget"] {
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   MARKDOWN
+========================================================= */
+
+[data-testid="stMarkdownContainer"] strong {
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+/* =========================================================
+   FORM
+========================================================= */
+
+.stForm {
+  margin-top: 2rem !important;
+  padding: 1.5rem 1rem !important;
+  background-color: #181D2A !important;
+  color: #fff;
+}
+/* FIX TOP WHITE BAR */
+
+header,
+[data-testid="stHeader"] {
+  background-color: #080a0f !important;
+}
+
+
+/* FIX INPUT BOX COLOR */
+
+.stTextInput input {
+  background-color: #181D2A !important;
+  color: #ffffff !important;
+}
+
+
+/* FIX PLACEHOLDER COLOR */
+
+.stTextInput input::placeholder {
+  color: rgb(255, 255, 255) !important;
+}
+
+
+/* FIX INPUT OUTER CONTAINER */
+
+[data-baseweb="input"] {
+  background-color: #181D2A !important;
+}
+
+[data-baseweb="input"] > div {
+  background-color: #181D2A !important;
+}
+/* FIX LABEL BACKGROUND */
+
+[data-testid="stWidgetLabel"] {
+  background-color: #181D2A !important;
+  color: rgba(255,255,255,0.45) !important;
+}
+/* FIX SELECTBOX INSIDE */
+
+[data-baseweb="select"] > div {
+  background-color: #181D2A !important;
+  color: white !important;
+}
+
+[data-baseweb="select"] input {
+  background-color: #181D2A !important;
+  color: white !important;
+}
+
+
+/* FIX NUMBER INPUT INSIDE */
+
+.stNumberInput input {
+  background-color: #181D2A !important;
+  color: white !important;
+}
+
+
+/* FIX PLUS/MINUS BUTTONS */
+
+.stNumberInput button {
+  background-color: #181D2A !important;
+  color: white !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+
+/* FIX DROPDOWN TEXT */
+
+[data-baseweb="select"] span {
+  color: white !important;
+}
+/* FIX SIDEBAR TITLE */
+
+[data-testid="stSidebar"] h1,
+[data-testid="stSidebar"] h2,
+[data-testid="stSidebar"] h3,
+[data-testid="stSidebar"] p,
+[data-testid="stSidebar"] label,
+[data-testid="stSidebar"] span {
+  color: white !important;
+}
+
+
+/* FIX SIDEBAR BUTTON */
+
+[data-testid="stSidebar"] .stButton button {
+  background-color: #181D2A !important;
+  color: white !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+
+/* FIX SIDEBAR BUTTON DISABLED */
+
+[data-testid="stSidebar"] .stButton button:disabled {
+  background-color: #181D2A !important;
+  color: rgba(255,255,255,0.45) !important;
+  opacity: 1 !important;
+}
+/* FIX SIDEBAR TOGGLE ARROW */
+
+[data-testid="stSidebarCollapsedControl"] button,
+[data-testid="stSidebarCollapseButton"] button {
+  color: white !important;
+}
+
+
+/* FIX SVG ICON COLOR */
+
+[data-testid="stSidebarCollapsedControl"] svg,
+[data-testid="stSidebarCollapseButton"] svg {
+  fill: white !important;
+  color: white !important;
+  stroke: white !important;
+}
+/* MAKE SIDEBAR OPEN/CLOSE ARROW WHITE */
+
+[data-testid="stSidebarCollapsedControl"] svg {
+  stroke: white !important;
+  fill: white !important;
+  color: white !important;
+}
+/* =========================================================
+   WORKOUT HISTORY TABLE FIX
+========================================================= */
+
+table {
+  color: white !important;
+}
+
+thead tr th {
+  color: white !important;
+  background-color: #111520 !important;
+}
+
+tbody tr td {
+  color: white !important;
+  background-color: #0F1724 !important;
+}
+
+[data-testid="stTable"] table {
+  border-collapse: collapse !important;
+  width: 100%;
+}
+
+[data-testid="stTable"] th,
+[data-testid="stTable"] td {
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  padding: 12px !important;
+}
+
+[data-testid="stTable"] tbody tr:hover {
+  background-color: #181D2A !important;
+}
